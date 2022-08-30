@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateTransactionTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+<!--                    <h:outputLabel value="#{bundle.CreateTransactionLabel_idTransaction}" for="idTransaction" />
+                    <h:inputText id="idTransaction" value="#{transactionController.selected.idTransaction}" title="#{bundle.CreateTransactionTitle_idTransaction}" />-->
+                    <h:outputLabel value="#{bundle.CreateTransactionLabel_dateTransaction}" for="dateTransaction" />
+                    <h:inputText id="dateTransaction" value="#{transactionController.selected.dateTransaction}" title="#{bundle.CreateTransactionTitle_dateTransaction}" />
+                    <h:outputLabel value="#{bundle.CreateTransactionLabel_montant}" for="montant" />
+                    <h:inputText id="montant" value="#{transactionController.selected.montant}" title="#{bundle.CreateTransactionTitle_montant}" />
+                    <h:outputLabel value="#{bundle.CreateTransactionLabel_typeTransaction}" for="typeTransaction" />
+                    <h:inputText id="typeTransaction" value="#{transactionController.selected.typeTransaction}" title="#{bundle.CreateTransactionTitle_typeTransaction}" />
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{transactionController.create}" value="#{bundle.CreateTransactionSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{transactionController.prepareList}" value="#{bundle.CreateTransactionShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateTransactionIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

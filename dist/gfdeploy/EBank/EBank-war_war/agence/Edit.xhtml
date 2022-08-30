@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.EditAgenceTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+<!--                    <h:outputLabel value="#{bundle.EditAgenceLabel_idAgence}" for="idAgence" />
+                    <h:inputText id="idAgence" value="#{agenceController.selected.idAgence}" title="#{bundle.EditAgenceTitle_idAgence}" />-->
+                    <h:outputLabel value="#{bundle.EditAgenceLabel_nomAgance}" for="nomAgance" />
+                    <h:inputText id="nomAgance" value="#{agenceController.selected.nomAgance}" title="#{bundle.EditAgenceTitle_nomAgance}" />
+                    <h:outputLabel value="#{bundle.EditAgenceLabel_telephone}" for="telephone" />
+                    <h:inputText id="telephone" value="#{agenceController.selected.telephone}" title="#{bundle.EditAgenceTitle_telephone}" />
+                </h:panelGrid>
+                <h:commandLink action="#{agenceController.update}" value="#{bundle.EditAgenceSaveLink}"/>
+                <br />
+                <br />
+                <h:link outcome="View" value="#{bundle.EditAgenceViewLink}"/>
+                <br />
+                <h:commandLink action="#{agenceController.prepareList}" value="#{bundle.EditAgenceShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.EditAgenceIndexLink}" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

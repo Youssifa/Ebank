@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/ClientDaoBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/services/TransactionServiceBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/services/local/CompteServiceBeanLocal.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/CompteDAOBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/local/AgenceDaoBeanLocal.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/local/TransactionDaoBeanLocal.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/entities/Transaction.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/GenericDAOBeanLocal.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/entities/Agence.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/entities/CompteCourant.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/AgenceDAOBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/local/CompteDaoBeanLocal.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/conf/META-INF/glassfish-resources.xml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/entities/Compte.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/local/ClientDaoBeanLocal.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/entities/Client.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/GenericDAOBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/dao/TransactionDAOBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-ejb/src/java/entities/CompteEpargne.java</file>
+        </group>
+    </open-files>
+</project-private>

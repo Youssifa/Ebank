@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateCompteEpargneTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateCompteEpargneLabel_numero}" for="numero" />
+                    <h:inputText id="numero" value="#{compteEpargneController.selected.numero}" title="#{bundle.CreateCompteEpargneTitle_numero}" />
+                    <h:outputLabel value="#{bundle.CreateCompteEpargneLabel_solde}" for="solde" />
+                    <h:inputText id="solde" value="#{compteEpargneController.selected.solde}" title="#{bundle.CreateCompteEpargneTitle_solde}" />
+                    <h:outputLabel value="#{bundle.CreateCompteEpargneLabel_dateCreation}" for="dateCreation" />
+                    <h:inputText id="dateCreation" value="#{compteEpargneController.selected.dateCreation}" title="#{bundle.CreateCompteEpargneTitle_dateCreation}" />
+                    <h:outputLabel value="#{bundle.CreateCompteEpargneLabel_agence}" for="agence" />
+                    <h:selectOneMenu id="agence" value="#{compteEpargneController.selected.agence}" title="#{bundle.CreateCompteEpargneTitle_agence}" >
+                        <f:selectItems value="#{agenceController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                    <h:outputLabel value="#{bundle.CreateCompteEpargneLabel_client}" for="client" />
+                    <h:selectOneMenu id="client" value="#{compteEpargneController.selected.client}" title="#{bundle.CreateCompteEpargneTitle_client}" >
+                        <f:selectItems value="#{clientController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{compteEpargneController.create}" value="#{bundle.CreateCompteEpargneSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{compteEpargneController.prepareList}" value="#{bundle.CreateCompteEpargneShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateCompteEpargneIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

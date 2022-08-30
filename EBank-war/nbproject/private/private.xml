@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/mbeans/CompteMBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/agence/Edit.xhtml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/client/Create.xhtml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/agence/Create.xhtml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/compte_courant/CompteCourantController.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/mbeans/ClientMBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/agence/View.xhtml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/compte/CompteController.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/transaction/Create.xhtml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/mbeans/TransactionMBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/agence/AgenceFacade.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/transaction/AbstractFacade.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/compte/Create.xhtml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/index.html</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/agence/List.xhtml</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/mbeans/AgenceMBean.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/agence/AbstractFacade.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/client/ClientController.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/agence/AgenceController.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/src/java/transaction/TransactionController.java</file>
+            <file>file:/C:/Users/DG/Documents/NetBeansProjects/EBank/EBank-war/web/index.xhtml</file>
+        </group>
+    </open-files>
+</project-private>
